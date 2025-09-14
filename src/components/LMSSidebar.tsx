@@ -24,6 +24,7 @@ import {
 
 const mainNavItems = [
   { title: "Dashboard", url: "/", icon: Home },
+  { title: "Curriculum Overview", url: "/curriculum", icon: BookOpen },
   { title: "My Courses", url: "/courses", icon: BookOpen },
   { title: "Calendar", url: "/calendar", icon: Calendar },
   { title: "Assignments", url: "/assignments", icon: FileText },
@@ -63,8 +64,8 @@ export function LMSSidebar() {
             </div>
             {!collapsed && (
               <div>
-                <h2 className="font-bold text-lg">UJ LMS</h2>
-                <p className="text-xs text-muted-foreground">Learning Management</p>
+                <h2 className="font-bold text-lg">Logic Lift</h2>
+                <p className="text-xs text-muted-foreground">National Curriculum Statement</p>
               </div>
             )}
           </div>

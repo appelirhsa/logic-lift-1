@@ -1,8 +1,8 @@
 import { LMSLayout } from "@/components/LMSLayout";
 import { HeroSection } from "@/components/HeroSection";
 import { DashboardStats } from "@/components/DashboardStats";
-import { CourseGrid } from "@/components/CourseGrid";
-import { RecentActivity } from "@/components/RecentActivity";
+import { CourseGridDB } from "@/components/CourseGridDB";
+import { RecentActivityDB } from "@/components/RecentActivityDB";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar } from "lucide-react";
 
@@ -18,9 +18,9 @@ const Index = () => {
         <div className="space-y-8 px-6">
           {/* Welcome Section */}
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold">Dashboard Overview</h1>
+            <h1 className="text-3xl font-bold">Dashboard</h1>
             <p className="text-muted-foreground">
-              Monitor your academic progress and upcoming activities.
+              Welcome back to Logic Lift - Your South African NCS Learning Platform
             </p>
           </div>
 
@@ -30,11 +30,11 @@ const Index = () => {
           {/* Main Content Grid */}
           <div className="grid gap-8 lg:grid-cols-3">
             <div className="lg:col-span-2 space-y-8">
-              <CourseGrid />
+              <CourseGridDB />
             </div>
             
             <div className="space-y-6">
-              <RecentActivity />
+              <RecentActivityDB />
               
               {/* Quick Actions */}
               <Card className="shadow-card">

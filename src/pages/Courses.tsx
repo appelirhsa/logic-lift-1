@@ -1,5 +1,5 @@
 import { LMSLayout } from "@/components/LMSLayout";
-import { CourseGrid } from "@/components/CourseGrid";
+import { CourseGridDB } from "@/components/CourseGridDB";
 
 const Courses = () => {
   return (
@@ -11,7 +11,7 @@ const Courses = () => {
             Manage and access all your enrolled courses.
           </p>
         </div>
-        <CourseGrid />
+        <CourseGridDB />
       </div>
     </LMSLayout>
   );
